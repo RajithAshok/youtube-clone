@@ -4,7 +4,7 @@ import { categories } from '../utils/constants';
 
 const selectedCategory = 'New';
 
-export const SideBar = () => {
+const SideBar = () => (
     <Stack
         direction="row"
         sx={{
@@ -34,6 +34,6 @@ export const SideBar = () => {
 
         ))}
     </Stack>
-}
+);
 
 export default SideBar

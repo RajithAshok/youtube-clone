@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import {SideBar} from "./SideBar";
+import SideBar from "./SideBar";
 
 
 
